@@ -1,6 +1,10 @@
-header{
+header {
 	background-color: #17395c;
 	color: #fff;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-bottom:10px ;
+	padding-top:10px;
 }
 
 .nav {
@@ -45,7 +49,10 @@ header{
 .nav li:hover>ul {
 	display: block;
 }
-
-.container-fluid{
-	width: 100%;
+.main {
+	background-color: #e1dcc9;
+	align-items: center;
+}
+.services {
+	background-color: chocolate;
 }
