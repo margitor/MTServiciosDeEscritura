@@ -1,58 +1,24 @@
+body{
+	font-family: 'Alegreya', Sans;
+}
+.container-fluid{
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgb(148, 133, 161);
+	padding: 10px;
+}
 header {
-	background-color: #17395c;
+	background-color: brown;
 	color: #fff;
 	margin-right: 0%;
 	margin-left: 0%;
 	padding-bottom:10px ;
 	padding-top:10px;
 }
-
-.nav {
-	margin-left: 50vw;
-	font-size: 15px;
+.nav__items{
+	background-color: #fff;
+	padding: 10px;
+	margin-left: 20px;
+	display: flex;
 }
 
-.nav li a {
-	margin: 0%;
-	padding: 10px 15px;
-	list-style-type: none;
-	color: white;
-	background-color: #c24229;
-	text-decoration: none;
-	display: block;
-}
-
-.nav li a:hover {
-	background-color: rgba(194, 66, 41, 0.76);
-}
-
-.nav>li {
-	float: left;
-}
-
-.nav ul {
-	list-style-type: none;
-	text-decoration: none;
-}
-
-.nav li {
-	list-style-type: none;
-	text-decoration: none;
-}
-
-.nav li ul {
-	display: none;
-	position: absolute;
-	min-width: 140px;
-}
-
-.nav li:hover>ul {
-	display: block;
-}
-.main {
-	background-color: #e1dcc9;
-	align-items: center;
-}
-.services {
-	background-color: chocolate;
-}
