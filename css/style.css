@@ -1,24 +1,80 @@
-body{
-	font-family: 'Alegreya', Sans;
-}
-.container-fluid{
-	width: 90%;
-	margin: 0 auto;
-	background-color: rgb(148, 133, 161);
-	padding: 10px;
-}
-header {
-	background-color: brown;
-	color: #fff;
-	margin-right: 0%;
-	margin-left: 0%;
-	padding-bottom:10px ;
-	padding-top:10px;
-}
-.nav__items{
-	background-color: #fff;
-	padding: 10px;
-	margin-left: 20px;
-	display: flex;
+body {
+	font-family:'Alegreya', Serif;
+	font-size: 16px;
+	background-color: #e1dcc9;
 }
 
+.container-fluid {
+	margin: 0%;
+	padding: 0%;
+	height: auto;
+	font-family: 'Alegreya', Serif;
+	block-size: 500px;
+}
+
+header {
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	font-family: 'Alegreya', Serif;
+}
+
+.nav__items {
+	background-color: none;
+	padding: auto;
+	margin-left: 32px;
+	margin-right: auto;
+	display: flex;
+	font-size: 20px;
+}
+
+.container-fluid .main-row{
+	background-image: url(../images/escritorio2.jpg);
+	padding: 32px;
+	height: 500px;
+}
+
+.image-responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	block-size: 250px;
+	padding: 16px;
+}
+
+.container-fluid .main-row .col-md-12 {
+	text-align: center;
+}
+
+.container-fluid .main-row .col-md-12 .description {
+
+}
+
+.button {
+	background-color: #efb758;
+	font-size: 1.5em;
+	border-radius: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-color: #efb758;
+	font-family: 'Alegreya', Serif;
+}
+
+.container-fluid .subtitle{
+	text-align: center;
+	font-size: 32px;
+	background-color: #ecc98c;
+	margin-top: 8px;
+	margin-bottom: 0%;
+	padding: 0%;
+}
+
+.container-fluid .services{
+	background-color: #ecc98c;
+	border: none;
+	block-size: 500px;
+}
