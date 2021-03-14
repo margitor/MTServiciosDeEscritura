@@ -1,7 +1,10 @@
 body {
 	font-family: 'Alegreya', serif;
 	font-size: 16px;
-	background-color: #e1dcc9;
+	background: #e1dcc9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #e1dcc9, #17395c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #e1dcc9, #17395c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .container-fluid {
@@ -51,6 +54,7 @@ header {
 	padding: 0px;
 	box-shadow: 0px 0px 8px black;
 	align-content: flex-end;
+	border-radius: 4px;
 }
 
 .container-fluid .main-row .col-md-12 {
@@ -69,14 +73,12 @@ header {
 .container-fluid .subtitle {
 	text-align: center;
 	font-size: 32px;
-	background-color: #ecc98c;
 	margin-top: 8px;
 	margin-bottom: 0%;
 	padding: 0%;
 }
 
 .container-fluid .services {
-	background-color: #ecc98c;
 	border: none;
 	block-size: 500px;
 }
