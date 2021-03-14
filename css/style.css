@@ -1,5 +1,5 @@
 body {
-	font-family:'Alegreya', Serif;
+	font-family: 'Alegreya', serif;
 	font-size: 16px;
 	background-color: #e1dcc9;
 }
@@ -8,63 +8,65 @@ body {
 	margin: 0%;
 	padding: 0%;
 	height: auto;
-	font-family: 'Alegreya', Serif;
-	block-size: 500px;
+	font-family: 'Alegreya', serif;
+	block-size: 550px;
 }
 
 header {
-	background-color: white;
+	background-color: #e1dcc9;
 	margin-right: auto;
 	margin-left: auto;
-	padding-bottom: 16px;
-	padding-top: 16px;
-	font-family: 'Alegreya', Serif;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	font-family: 'Alegreya', serif;
 }
 
-.nav__items {
-	background-color: none;
-	padding: auto;
-	margin-left: 32px;
-	margin-right: auto;
-	display: flex;
-	font-size: 20px;
+.navbar .container-fluid {
+	block-size: auto;
+	font-size: 1.5em;
+	background-color: #e1dcc9;
 }
 
-.container-fluid .main-row{
+.navbar .container-fluid .navbar-brand {
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.collapse .navbar-nav {
+	margin-left: auto;
+}
+
+.container-fluid .main-row {
 	background-image: url(../images/escritorio2.jpg);
+	background-size: cover;
 	padding: 32px;
-	height: 500px;
+	height: 550px;
 }
 
-.image-responsive {
+.image-fluid {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	block-size: 250px;
-	padding: 16px;
+	block-size: 200px;
+	padding: 0px;
+	box-shadow: 0px 0px 8px black;
+	align-content: flex-end;
 }
 
 .container-fluid .main-row .col-md-12 {
 	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 32px;
 }
 
 .container-fluid .main-row .col-md-12 .description {
-
+	color: black;
+	text-shadow: 0px 0px 8px white;
+	font-weight: 500;
+	font-size: 2em;
 }
 
-.button {
-	background-color: #efb758;
-	font-size: 1.5em;
-	border-radius: 8px;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-color: #efb758;
-	font-family: 'Alegreya', Serif;
-}
-
-.container-fluid .subtitle{
+.container-fluid .subtitle {
 	text-align: center;
 	font-size: 32px;
 	background-color: #ecc98c;
@@ -73,7 +75,7 @@ header {
 	padding: 0%;
 }
 
-.container-fluid .services{
+.container-fluid .services {
 	background-color: #ecc98c;
 	border: none;
 	block-size: 500px;
