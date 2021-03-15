@@ -1,10 +1,12 @@
 body {
 	font-family: 'Alegreya', serif;
 	font-size: 16px;
-	background: #e1dcc9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #e1dcc9, #17395c);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #e1dcc9, #17395c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #e1dcc9;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #e1dcc9, #efb758);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #e1dcc9, #efb758);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container-fluid {
@@ -57,6 +59,13 @@ header {
 	border-radius: 4px;
 }
 
+.container-fluid .main-row {
+	padding-bottom: 32px;
+	padding-top: 32px;
+	block-size: auto;
+	margin-bottom: auto;
+}
+
 .container-fluid .main-row .col-md-12 {
 	text-align: center;
 	padding-top: 16px;
@@ -70,15 +79,40 @@ header {
 	font-size: 2em;
 }
 
-.container-fluid .subtitle {
+
+#servicios {
+	height: 100%;
+	width: 100%;
 	text-align: center;
 	font-size: 32px;
-	margin-top: 8px;
-	margin-bottom: 0%;
-	padding: 0%;
 }
 
 .container-fluid .services {
-	border: none;
 	block-size: 500px;
 }
+
+footer {}
+
+#contacto {
+	background-color:;
+	block-size: 250px;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	padding: 0%;
+	margin: auto;
+}
+
+h4 {
+	text-align: center;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
