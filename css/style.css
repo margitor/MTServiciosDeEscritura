@@ -14,7 +14,6 @@ body {
 	padding: 0%;
 	height: auto;
 	font-family: 'Alegreya', serif;
-	block-size: 550px;
 }
 
 header {
@@ -44,8 +43,11 @@ header {
 .container-fluid .main-row {
 	background-image: url(../images/escritorio2.jpg);
 	background-size: cover;
-	padding: 32px;
 	height: 550px;
+	padding-bottom: 32px;
+	padding-top: 32px;
+	block-size: auto;
+	margin-bottom: auto;
 }
 
 .image-fluid {
@@ -59,12 +61,7 @@ header {
 	border-radius: 4px;
 }
 
-.container-fluid .main-row {
-	padding-bottom: 32px;
-	padding-top: 32px;
-	block-size: auto;
-	margin-bottom: auto;
-}
+
 
 .container-fluid .main-row .col-md-12 {
 	text-align: center;
@@ -108,11 +105,3 @@ h3 {
 h4 {
 	text-align: center;
 }
-
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
