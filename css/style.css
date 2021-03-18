@@ -47,8 +47,9 @@ header {
 /* estilos seccion main */
 
 .container-fluid .main-row {
-	background-image: url(../images/escritorio2.jpg);
+	background-image: url(../images/principal.png);
 	background-size: cover;
+	background-position: top;
 	height: 550px;
 	padding-bottom: 32px;
 	padding-top: 32px;
@@ -168,9 +169,6 @@ h4{
 	list-style-type: none;
 }
 
-a:link {
-	color: #c24229;
-}
 
 a:hover {
 	color: #17395c;
