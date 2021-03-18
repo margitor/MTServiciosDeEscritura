@@ -75,11 +75,10 @@ header {
 
 .container-fluid .main-row .col-md-12 .description {
 	color: black;
-	text-shadow: 0px 0px 8px white;
+	text-shadow: 0px 10px 10px white;
 	font-weight: 500;
 	font-size: 2em;
 }
-
 
 .subtitle {
 	height: 100%;
@@ -90,16 +89,22 @@ header {
 }
 
 /* seccion servicios*/
+h4{
+	text-align: center;
+}
+
 #section1 {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+
 .container-fluid .services {
 	block-size: auto;
 	justify-content: center;
 }
+
 #correccion {
-	background-color:#e1dcc9;
+	background-color: #e1dcc9;
 	margin: 16px;
 	border-radius: 8px;
 	box-shadow: 0px 0px 8px #17395c;
@@ -107,8 +112,9 @@ header {
 	max-height: auto;
 	padding: 1em;
 }
+
 #asesoramiento {
-	background-color:#e1dcc9;
+	background-color: #e1dcc9;
 	margin: 16px;
 	border-radius: 8px;
 	box-shadow: 0px 0px 8px #17395c;
@@ -116,8 +122,9 @@ header {
 	max-height: auto;
 	padding: 1em;
 }
+
 #metodologia {
-	background-color:#e1dcc9;
+	background-color: #e1dcc9;
 	margin: 16px;
 	border-radius: 8px;
 	box-shadow: 0px 0px 8px #17395c;
@@ -125,17 +132,20 @@ header {
 	max-height: auto;
 	padding: 1em;
 }
+
 .descripcion {
 	text-align: center;
 	padding-top: 16px;
 }
 
 /* quienes somos*/
+
 #section2 {
 	margin-top: 3em;
 	margin-bottom: 3em;
 	padding: 32px;
 }
+
 .about {
 	padding: 16px;
 }
@@ -147,19 +157,39 @@ header {
 	margin-bottom: 3em;
 	padding: 32px;
 }
-.resource {
+
+.resource .col-md-12 {
 	padding: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	font-size: 20px;
+	background-color: #e1dcc9;
+	text-align: center;
+	list-style-type: none;
+}
+
+a:link {
+	color: #c24229;
+}
+
+a:hover {
+	color: #17395c;
+	text-decoration: none;
+}
+
+h5 {
+	text-align: center;
 }
 
 /* footer */
 
 footer {
-	font-family: 'Alegreya' , serif;
+	font-family: 'Alegreya', serif;
 }
 
 #contacto {
-	block-size: 250px;
-	margin: 32px;
+	block-size: auto;
+	margin-top: 3em;
 	padding: 32px;
 }
 
@@ -170,10 +200,19 @@ h3 {
 	margin: auto;
 }
 
-h4 {
+.footer .col-xs-12 .img {
+	width: 64px;
+	height: auto;
+}
+
+.footer .col-xs-12 {
+	margin: auto;
+	padding: 16px;
 	text-align: center;
 }
 
-
-
-
+.footer .col-md-12 {
+	color: #c24229;
+	text-align: center;
+	margin-top: 32px;
+}
